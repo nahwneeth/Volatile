@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schemalist>
+    <schema path="/com/github/navaneethp123/volatile/" id="com.github.navaneethp123.volatile">
+        
+        <key name="window-width" type="i">
+            <default>800</default>
+            <summary>Window Width</summary>
+            <description>Width of the window</description>
+        </key>
+        
+        <key name="window-height" type="i">
+            <default>600</default>
+            <summary>Width Height</summary>
+            <description>Height of the window</description>
+        </key>
+
+        <key name="window-maximized" type="b">
+            <default>false</default>
+            <summary>Is Window Maximized?</summary>
+            <description>Whether window is maximized or not</description>
+        </key>
+
+        <key name="window-x" type="i">
+            <default>-1</default>
+            <summary>x position</summary>
+            <description>The x-coordinate of window</description>
+        </key>
+
+        <key name="window-y" type="i">
+            <default>-1</default>
+            <summary>y position</summary>
+            <description>The y-coordinate of window</description>
+        </key>
+
+        <key name="default-template" type="s">
+            <default>""</default>
+            <summary>Default template to be loaded</summary>
+            <description>Whether the user has selected a default template</description>
+        </key>
+
+        <key name="opened-files" type="as">
+            <default>[]</default>
+            <summary>The Files opened in the previous session</summary>
+            <description>The files that were open in the previus session</description>
+        </key>
+
+        <key name="tab-ids" type="as">
+            <default>[]</default>
+            <summary>Tab ID's for internal use</summary>
+            <description>Used for generating nonconflicting executable filenames</description>
+        </key>
+
+        <key name ="show-tab-id" type="s">
+            <default>""</default>
+            <summary>The ID of the tab last used</summary>
+            <description>The ID of the tab that was last used by the user</description>
+        </key>
+
+        <key name="save-preference" type="i">
+            <default>0</default>
+            <summary>Action to perform when closing tab</summary>
+            <description>Whether the user prefers to save or not save a tab when closing</description>
+        </key>
+
+        <key name="main-pane-pos" type="i">
+            <default>500</default>
+            <summary>The position of divider in main pane</summary>
+            <description>The saved position of the divider in main pane of each tab</description>
+        </key>
+
+        <key name="tests-pane-pos" type="i">
+            <default>300</default>
+            <summary>The position of divider in tests pane</summary>
+            <description>The saved position of the divider in tests pane of each tab</description>
+        </key>
+        
+    </schema>
+</schemalist>

@@ -1,0 +1,85 @@
+<!-- 
+
+Copyright (C) 2020  Navaneeth P <navaneethp123@outlook.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ -->
+
+<style-scheme id="volatile-vapors" _name="Volatile Vapors" version="1.0">
+    <author>Navaneeth P</author>
+    <_description>The dark color shceme used by Volatile text editor.</_description>
+
+    <!--  Colors  -->
+    <color name="white"         value="#f8f8f8"/>
+    <color name="strawberry"    value="#ed5353"/>
+    <color name="orange"        value="#ffa154"/>
+    <color name="banana"        value="#ffe16b"/>
+    <color name="lime"          value="#9bdb4d"/>
+    <color name="mint"          value="#43d6b5"/>
+    <color name="blueberry"     value="#64baff"/>
+    <color name="grape"         value="#cd9ef7"/>
+    <color name="bubblegum"     value="#f4679d"/>
+    <color name="silver"        value="#d4d4d4"/>
+    <color name="slate"         value="#667885"/>
+    <color name="grey"          value="#333333"/>
+    <color name="light_grey"    value="#a6a6a6"/>
+    <color name="dark_grey"     value="#202020"/>
+    <color name="tinted_grey"   value="#383838"/>
+    <color name="med_grey"      value="#606060"/>
+
+    <!-- Global Settings -->
+    <style name="text"                        foreground="white" background="grey"/>
+    <style name="selection"                   foreground="white" background="slate"/>
+    <style name="cursor"                      foreground="silver"/>
+    <style name="current-line"                background="tinted_grey"/>
+    <style name="line-numbers"                foreground="med_grey" background="tinted_grey"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"               foreground="dark_grey" background="light_grey"/>
+    <style name="bracket-mismatch"            foreground="strawberry" background="light_grey"/>
+
+    <!-- Search Matching -->
+    <style name="search-match"                foreground="white" background="yellow"/>
+
+    <!-- Comments -->
+    <style name="def:comment"                 foreground="slate"/>
+    <style name="def:shebang"                 foreground="slate" bold="true"/>
+    <style name="def:doc-comment-element"     italic="true"/>
+
+    <!-- Constants and Variables -->
+    <style name="def:constant"                foreground="mint"/>
+    <style name="def:special-char"            foreground="lime"/>
+    <style name="def:number"                  foreground="bubblegum"/>
+    <style name="def:character"               foreground="bubblegum"/>
+
+    <!-- Identifiers -->
+    <style name="def:identifier"              foreground="blueberry"/>
+
+    <!-- Statements -->
+    <style name="def:statement"               foreground="orange"/>
+
+    <!-- Types -->
+    <style name="def:type"                    foreground="blueberry"/>
+
+    <!-- Operators -->
+    <style name="def:operator"                foreground="lime"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor"            foreground="grape"/>
+    <style name="def:error"                   foreground="strawberry" bold="true"/>
+    <style name="def:note"                    foreground="bubblegum" bold="true"/>
+    <style name="def:underlined"              italic="true" underline="single"/>
+
+</style-scheme>

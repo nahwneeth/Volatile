@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020 Navaneeth P <navaneethp123@outlook.com> -->
+<component type="desktop-application">
+  <id>com.github.navaneethp123.volatile</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Volatile</name>
+  <summary>A text editor for c++ competitive programming</summary>
+  <description>
+    <p>Volatile is a text editor to ease c++ competitive programming. It's built to help you focus on programming by providing a few tools in one window. More precisely, create/open a new file, select a template if it's a new file (templates should be added to ~/Documents/Volatile/Templates/), code, add input in the top right box, and get output/errors in the bottom left box by just clicking on the run button placed right above the input box in the headerbar (requires a g++ compiler).</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/navaneethp123/Volatile/master/data/assets/screenshots/Main.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/navaneethp123/Volatile/master/data/assets/screenshots/Welcome.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/navaneethp123/Volatile/master/data/assets/screenshots/Template.png</image>
+    </screenshot>
+  </screenshots>
+  <provides>
+    <binary>com.github.navaneethp123.volatile</binary>
+  </provides>
+  <releases>
+    <release version="1.0.0" date="2020-06-24" urgency="medium">
+      <description>
+        <p>Initial Release</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desecration">none</content_attribute>
+    <content_attribute id="violence-slavery">none</content_attribute>
+    <content_attribute id="violence-worship">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="sex-appearance">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+  <developer_name>Navaneeth P</developer_name>
+  <url type="homepage">https://github.com/navaneethp123/Volatile</url>
+  <url type="bugtracker">https://github.com/navaneethp123/Volatile/issues</url>
+  <custom>
+    <value key="x-appcenter-color-primary">#cd9ef7</value>
+    <value key="x-appcenter-color-primary-text">#333333</value>
+    <value key="x-appcenter-suggested-price">5</value>
+    <value key="x-appcenter-stripe">pk_live_51GxDv4BvwBiyOvo997SGrVGGOByW5VE3MfbFD2mUXNSS5tRO10k920iJ6xcnpcMRpe3IrI6MvGyYE46RAQ7AOSMV00gsttLxDo</value>
+  </custom>
+</component>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Volatile
+GenericName=Text Editor
+Comment=C++ Competitive Coding
+Categories=Development;
+Exec=com.github.navaneethp123.volatile %U
+Icon=com.github.navaneethp123.volatile
+Terminal=false
+Type=Application
+Keywords=c++;cpp;
